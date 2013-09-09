@@ -1,11 +1,12 @@
 package Any::Renderer::Pretty::HTML;
-# ABSTRACT: Render data structures through Data::Format::Pretty::HTML
 
 use 5.010;
 use strict;
 use warnings;
 
 use Data::Format::Pretty::HTML qw(format_pretty);
+
+# VERSION
 
 sub new {
     my ($class, $format, $options) = @_;
@@ -28,7 +29,7 @@ sub available_formats {
 }
 
 1;
-__END__
+# ABSTRACT: Render data structures through Data::Format::Pretty::HTML
 
 =head1 SYNOPSIS
 
